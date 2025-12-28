@@ -1,5 +1,5 @@
 # Q-Learning Maze Solver
-
+<img width="1729" height="945" alt="image" src="https://github.com/user-attachments/assets/6effb2a3-2e14-41e8-ae17-de9aab55afca" />
 ### Summary
 
 In this project, I developed a Q-Learning agent that can solve unseen mazes. The initial approach only memorized the training maze and completely failed on new ones (0% success). By iteratively improving the state representation, I achieved **93% success** on unseen mazes, without using any deep learning.
@@ -36,7 +36,7 @@ Every maze used by the agent both in training and in evaluation is guaranteed to
 
 ---
 
-## **3. Agent Improvements**
+## **3. How to generalize without deep learning?**
 
 ### **3.1 The Problem: A Memorizing Agent**
 

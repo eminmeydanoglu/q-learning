@@ -3,7 +3,7 @@
 
 ### TL;DR
 
-In this project, I developed a Q-Learning agent that can solve unseen mazes. The initial approach only memorized the training maze and completely failed on new ones (0% success). By iteratively improving the state representation, I achieved **93% success** on unseen mazes, without using any deep learning.
+In this project, I developed a Q-Learning agent (which is absolutely not the best learning algorithm to solve mazes, because it only memorizes stuff) that can solve unseen mazes. The initial approach only memorized the training maze and completely failed on new ones (0% success). By iteratively improving the state representation, I achieved **93% success** on unseen mazes, without using any deep learning.
 
 ---
 
@@ -39,7 +39,7 @@ Every maze used by the agent both in training and in evaluation is guaranteed to
 
 ## **3. How to generalize without deep learning?**
 
-### **3.1 The Problem: A Memorizing Agent**
+### **3.1 The Problem: Q-Learning only memorizes things**
 
 When I first built the agent, I used coordinates (x, y) as states. The agent learned things like: "When I'm at row 3, column 5, I should go up." The agent was just memorizing the solution to one specific maze rather than learning how to navigate mazes in general.
 
